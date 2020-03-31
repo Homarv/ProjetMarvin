@@ -1,0 +1,161 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.link {
+  text-decoration: blue underline;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+.fa-skull-crossbones {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.vp .fa-skull-crossbones {
+  font-size: 3rem;
+}
+
+/*bouton*/
+
+.btn {
+  color: grey;
+  background-color: #eee;
+  padding: 0.5rem;
+  margin: 1rem 0.5rem;
+  border-radius: 0.5em;
+  border-style: none;
+  border: 1px solid #eee;
+}
+
+.btn:hover {
+  border: 1px solid grey;
+  color: black;
+}
+
+/*container global*/
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
+}
+
+header a {
+  padding: 1rem;
+  color: black;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+
+/*vp*/
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.vp-content {
+  text-align: center;
+  color: red;
+}
+
+.vp-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.vp div input {
+  display: block;
+  height: 50px;
+  width: 500px;
+  border-radius: 3em;
+}
+
+.vp div {
+  font-size: 0.8rem;
+}
+
+.vp div a {
+  color: blue;
+}
+
+.corona {
+  display: flex;
+  align-items: center;
+}
+
+.corona a {
+  margin: 1rem;
+}
+
+/*footer*/
+footer {
+  font-size: 0.8rem;
+  background-color: #eee;
+}
+
+footer section {
+  padding: 1rem;
+  border: solid lightgray 1px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: grey;
+}
+
+footer ul div {
+  display: flex;
+}
+
+footer ul div li {
+  padding: 1rem;
+}
